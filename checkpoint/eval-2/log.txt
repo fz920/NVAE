@@ -1,0 +1,26 @@
+2022-07-31 22:20:35,024 (Elapsed: 00:00:13) args = Namespace(ada_groups=False, arch_instance='res_mbconv', batch_size=32, cont_training=False, data='/data/users/fz920/data/cifar10', dataset='cifar10', distributed=True, epochs=1, fast_adamax=True, global_rank=0, kl_anneal_portion=0.3, kl_const_coeff=0.0001, kl_const_portion=0.0001, learning_rate=0.01, learning_rate_min=0.0001, local_rank=0, master_address='127.0.0.1', min_groups_per_scale=1, node_rank=0, num_cell_per_cond_dec=2, num_cell_per_cond_enc=2, num_channels_dec=16, num_channels_enc=16, num_groups_per_scale=20, num_latent_per_group=20, num_latent_scales=1, num_mixture_dec=10, num_nf=0, num_postprocess_blocks=1, num_postprocess_cells=2, num_preprocess_blocks=1, num_preprocess_cells=2, num_proc_node=1, num_process_per_node=1, num_total_iter=1562, num_x_bits=8, res_dist=True, root='/data/users/fz920/NVAE/checkpoint', save='/data/users/fz920/NVAE/checkpoint/eval-2', seed=1, use_se=True, warmup_epochs=5, weight_decay=0.0003, weight_decay_norm=0.01, weight_decay_norm_anneal=False, weight_decay_norm_init=10.0)
+2022-07-31 22:20:35,041 (Elapsed: 00:00:13) param size = 1.822208M 
+2022-07-31 22:20:35,042 (Elapsed: 00:00:13) groups per scale: [20], total_groups: 20
+2022-07-31 22:20:35,047 (Elapsed: 00:00:13) epoch 0
+2022-07-31 22:21:31,506 (Elapsed: 00:01:09) train 99 19352.085938
+2022-07-31 22:22:28,023 (Elapsed: 00:02:06) train 199 18445.935547
+2022-07-31 22:23:26,985 (Elapsed: 00:03:05) train 299 17344.031250
+2022-07-31 22:24:23,455 (Elapsed: 00:04:01) train 399 16628.759766
+2022-07-31 22:25:19,228 (Elapsed: 00:04:57) train 499 16141.597656
+2022-07-31 22:26:14,497 (Elapsed: 00:05:52) train 599 15784.628906
+2022-07-31 22:27:10,290 (Elapsed: 00:06:48) train 699 15520.431641
+2022-07-31 22:28:05,950 (Elapsed: 00:07:44) train 799 15299.764648
+2022-07-31 22:29:00,875 (Elapsed: 00:08:39) train 899 15104.739258
+2022-07-31 22:29:55,435 (Elapsed: 00:09:33) train 999 14902.849609
+2022-07-31 22:30:50,187 (Elapsed: 00:10:28) train 1099 14705.593750
+2022-07-31 22:31:46,443 (Elapsed: 00:11:24) train 1199 14513.954102
+2022-07-31 22:32:42,175 (Elapsed: 00:12:20) train 1299 14349.692383
+2022-07-31 22:33:38,647 (Elapsed: 00:13:16) train 1399 14199.413086
+2022-07-31 22:34:32,972 (Elapsed: 00:14:11) train 1499 14060.218750
+2022-07-31 22:35:06,468 (Elapsed: 00:14:44) train_nelbo 13982.088867
+2022-07-31 22:40:03,054 (Elapsed: 00:19:41) val, step: 312, NELBO: 11690.368164, neg Log p 11610.106445
+2022-07-31 22:40:03,054 (Elapsed: 00:19:41) valid_nelbo 11690.368164
+2022-07-31 22:40:03,054 (Elapsed: 00:19:41) valid neg log p 11610.106445
+2022-07-31 22:40:03,055 (Elapsed: 00:19:41) valid bpd elbo 5.490116
+2022-07-31 22:40:03,055 (Elapsed: 00:19:41) valid bpd log p 5.452423
+2022-07-31 22:40:03,056 (Elapsed: 00:19:41) saving the model.
