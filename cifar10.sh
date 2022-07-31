@@ -1,6 +1,6 @@
 #!/bin/bash
 export EXPR_ID=1
-export DATA_DIR=/data2/users/fz920/NVAE/data
+export DATA_DIR=/data2/users/fz920/data
 export CHECKPOINT_DIR=/data2/users/fz920/NVAE/checkpoint
 export CODE_DIR=/data2/users/fz920/NVAE
 CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --master_port 1234 train.py --data $DATA_DIR/cifar10 --root $CHECKPOINT_DIR --save $EXPR_ID --dataset cifar10 \
