@@ -1,0 +1,8 @@
+2022-08-02 12:04:37,793 (Elapsed: 00:00:05) args = Namespace(ada_groups=False, arch_instance='res_mbconv', batch_size=32, cont_training=False, data='/data/users/fz920/data/cifar10', dataset='cifar10', distributed=True, epochs=40, fast_adamax=True, global_rank=0, kl_anneal_portion=0.3, kl_const_coeff=0.0001, kl_const_portion=0.0001, learning_rate=0.01, learning_rate_min=0.0001, local_rank=0, master_address='127.0.0.1', min_groups_per_scale=1, node_rank=0, num_cell_per_cond_dec=2, num_cell_per_cond_enc=2, num_channels_dec=64, num_channels_enc=64, num_groups_per_scale=30, num_latent_per_group=20, num_latent_scales=1, num_mixture_dec=10, num_nf=1, num_postprocess_blocks=1, num_postprocess_cells=2, num_preprocess_blocks=1, num_preprocess_cells=2, num_proc_node=1, num_process_per_node=1, num_total_iter=62480, num_x_bits=8, res_dist=True, root='/data/users/fz920/NVAE/checkpoint', save='/data/users/fz920/NVAE/checkpoint/eval-5', seed=1, use_se=True, warmup_epochs=5, weight_decay=0.0003, weight_decay_norm=0.01, weight_decay_norm_anneal=False, weight_decay_norm_init=10.0)
+2022-08-02 12:04:37,821 (Elapsed: 00:00:05) param size = 35.511228M 
+2022-08-02 12:04:37,821 (Elapsed: 00:00:05) groups per scale: [30], total_groups: 30
+2022-08-02 12:04:37,830 (Elapsed: 00:00:05) epoch 0
+2022-08-02 12:06:10,129 (Elapsed: 00:01:37) train 99 18171.324219
+2022-08-02 12:07:42,869 (Elapsed: 00:03:10) train 199 16231.835938
+2022-08-02 12:09:16,007 (Elapsed: 00:04:43) train 299 15114.412109
+2022-08-02 12:10:49,441 (Elapsed: 00:06:17) train 399 14356.419922
