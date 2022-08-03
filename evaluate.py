@@ -19,6 +19,7 @@ from model import AutoEncoder
 import utils
 import datasets
 from train import test, init_processes, test_vae_fid
+from fid.fid_score import compute_statistics_of_generator, save_statistics
 
 
 def set_bn(model, bn_eval_mode, num_samples=1, t=1.0, iter=100):
