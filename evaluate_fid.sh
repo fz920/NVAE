@@ -1,4 +1,4 @@
-export EXPR_ID=5
+export EXPR_ID=7
 export DATA_DIR=/data/users/fz920/data
 export CHECKPOINT_DIR=/data/users/fz920/NVAE/checkpoint
 export CODE_DIR=/data/users/fz920/NVAE
