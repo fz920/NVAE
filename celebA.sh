@@ -1,5 +1,5 @@
-export DATA_DIR=/data/users/fz920/data
-export CODE_DIR=/data/users/fz920/NVAE
+export DATA_DIR=/Users/zhangfengzhe/Desktop/urop_generative_model/data
+export CODE_DIR=/Users/zhangfengzhe/Desktop/urop_generative_model/NVAE
 
 cd $CODE_DIR/scripts
 

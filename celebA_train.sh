@@ -1,5 +1,5 @@
 export EXPR_ID=celeb1
-export DATA_DIR=/data/users/fz920/data
+export DATA_DIR=/data/users/fz920/data/data
 export CHECKPOINT_DIR=/data/users/fz920/NVAE/checkpoint
 export CODE_DIR=/data/users/fz920/NVAE
 
