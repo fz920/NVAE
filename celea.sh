@@ -1,4 +1,5 @@
 export DATA_DIR=/data/users/fz920/data
+export CODE_DIR=/data/users/fz920/NVAE
 
 cd $CODE_DIR/scripts
 python create_celeba64_lmdb.py --split train --img_path $DATA_DIR/celeba_org --lmdb_path $DATA_DIR/celeba64_lmdb
